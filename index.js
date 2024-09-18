@@ -1,5 +1,5 @@
 const express = require("express")
-const {Usermodel, BookModel} = require("../models")
+const {Usermodel, BookModel} = require("./models")
 
 // database connection
 const DbConnection = require("./databaseConnection")
@@ -23,8 +23,8 @@ app.get("/", (req, res)=>{
     })
 })
 
-// app.use("/users", usersRouter);
-// app.use("/books", booksRouter)
+app.use("/users", usersRouter);
+app.use("/books", booksRouter)
 
 
 app.all("*", (req, res)=>{
