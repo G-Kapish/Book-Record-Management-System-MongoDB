@@ -8,8 +8,6 @@
     npm i mongoose
     npm install mongodb
 
-    mongodb+srv://lordofdemons66:vkxolmU3b7vvgOHu@cluster0.2ohwl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
     npm i dotenv
 
 ## MVC Architecture
