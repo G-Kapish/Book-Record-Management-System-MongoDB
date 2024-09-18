@@ -20,9 +20,9 @@ const userSchema = new Schema({
         ref: "Book",
         required: false
     },
-    issueedDate:{
+    issuedDate:{
         type: String,
-        required: true
+        required: false
     },
     returnedDate:{
         type: String,
